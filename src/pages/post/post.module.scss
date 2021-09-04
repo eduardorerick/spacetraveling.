@@ -1,1 +1,36 @@
-// TODO
+.postPage {
+  width:1120px;
+  margin: 0 auto;
+  color: var(--text-white);
+  .postImage {
+    width: 100vw;
+
+  }
+}
+
+.titleContainer {
+  margin: 1rem 0;
+  > h1 {
+    margin: 2rem 0 1rem 0 ;
+  }
+  p {
+    color: var(--text-body);
+  }
+
+  .titleContent {
+      display:flex;
+      font-size:1.2rem;
+      gap:2rem;
+  }
+}
+
+.postBody {
+  >h2 {
+    margin-bottom: 1.5rem;
+  }
+  p, li, ul {
+    font-size:1.2rem;
+    color: var(--text-body);
+    margin-bottom: 1rem;
+  }
+}

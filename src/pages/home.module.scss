@@ -1,1 +1,36 @@
-// TODO
+
+.Container {
+  max-width: 1120px;
+  margin: 0 auto;
+  
+  margin-top: 2.5rem;
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  gap:4rem;
+
+    .contentContainer{
+     h1 {
+      color: var(--text-white);
+      font-size:2rem;
+      font-weight: bold;
+    }
+     p {
+      font-size: 1.2rem;
+      color: var(--text-body);
+      margin-top: 0.625rem;
+      margin-bottom: 1rem;
+    }
+
+    .authorContainer {
+      display:flex;
+      font-size:1.2rem;
+      color: var(--text-body);
+      gap:2rem;
+    }
+  }
+}
+
+.nextPageButton {
+  
+}

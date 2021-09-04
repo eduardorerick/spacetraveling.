@@ -1,7 +1,9 @@
 
 :root {
-
-
+        --black-100: #1A1D23;
+        --text-white: #F8F8F8;
+        --text-body: #D7D7D7;
+        --pink: #FF57B2;
 }
 
 * {
@@ -25,8 +27,7 @@
 
 
 body {
-        background-color: var(--gray-900);
-        color: var(--white)
+        background-color: var(--black-100);
 }
 
 body, input, textarea, select, button {
